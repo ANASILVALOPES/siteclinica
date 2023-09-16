@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 800px;
+    display: flex;
+    
+    background-color: rgb(190, 137, 3);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+   /* Estilos para o menu hambúrguer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#menu ul li {
+    padding: 15px;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+#menu ul li a:hover {
+    background-color: #555;
+}
+
+}
+.header {
+    background-color: rgb(215, 156, 6);
+    min-height: 150px;
+    height: 50%;
+    border: 2px solid #4fd1c5;
+    
+    
+}
+.content {
+    background-color: rgb(226, 201, 137);
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.footer {
+    background-color: rgb(215, 156, 6);
+    min-height: 150px;
+}
